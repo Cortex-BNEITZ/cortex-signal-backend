@@ -2,5 +2,5 @@ flask
 flask-cors
 python-dotenv
 crewai
-crewai[tools]
+crewai_tools
 gunicorn
