@@ -7,9 +7,8 @@ from dotenv import load_dotenv
 from crewai import Agent, Task, Crew, Process
 
 # --- UPDATED IMPORTS ---
-# This is the corrected way to import tools in recent crewai versions
-from crewai_tools.serper_dev_tool import SerperDevTool
-from crewai_tools.website_search_tool import WebsiteSearchTool
+# This is the corrected way to import tools for the specified library versions
+from crewai_tools import SerperDevTool, WebsiteSearchTool
 
 # --- INITIAL SETUP ---
 load_dotenv()
