@@ -1,0 +1,6 @@
+flask
+flask-cors
+python-dotenv
+crewai
+crewai_tools
+gunicorn
